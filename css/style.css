@@ -195,12 +195,9 @@
     background: url(../img/banner3.webp) no-repeat center top / cover;
 }
 .bannerSwiper .slide-inner:nth-child(4){
-    background: url(../img/banner4.webp) no-repeat center top / cover;
-}
-.bannerSwiper .slide-inner:nth-child(5){
     background: url(../img/banner5.webp) no-repeat center top / cover;
 }
-.bannerSwiper .slide-inner:nth-child(6){
+.bannerSwiper .slide-inner:nth-child(5){
     background: url(../img/banner6.webp) no-repeat center top / cover;
 }
 .banner-content .view-btn{
@@ -940,14 +937,12 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_3_width1338.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner:nth-child(4){
-        background: url(../img/banner/banner_4_width1338.webp) no-repeat center top / cover;
-    }
-    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_5_width1338.webp) no-repeat center top / cover;
     }
-    .bannerSwiper .slide-inner:nth-child(4){
+    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_6_width1338.webp) no-repeat center top / cover;
     }
+
 }
 @media(max-width: 1310px){
     .sec-5 .container .box-wrap .box{
@@ -1223,12 +1218,9 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_3_width1024.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner:nth-child(4){
-        background: url(../img/banner/banner_4_width1024.webp) no-repeat center top / cover;
-    }
-    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_5_width1024.webp) no-repeat center top / cover;
     }
-    .bannerSwiper .slide-inner:nth-child(4){
+    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_6_width1024.webp) no-repeat center top / cover;
     }
 }
@@ -1350,12 +1342,9 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_3_width767.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner:nth-child(4){
-        background: url(../img/banner/banner_4_width767.webp) no-repeat center top / cover;
-    }
-    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_5_width767.webp) no-repeat center top / cover;
     }
-    .bannerSwiper .slide-inner:nth-child(4){
+    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_6_width767.webp) no-repeat center top / cover;
     }
 }
@@ -1507,9 +1496,6 @@ footer .container .flex .icon-box div:hover svg{
     .bannerSwiper .slide-inner{
         height: 550px;
     }
-    .bannerSwiper .slide-inner .banner-content{
-        top: 84%;
-    }
     .bannerSwiper .slide-inner .banner-content h1{
         font-size: 21px;
         margin-bottom: 12px;
@@ -1569,13 +1555,13 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_3_width500.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner:nth-child(4){
-        background: url(../img/banner/banner_4_width500.webp) no-repeat center top / cover;
-    }
-    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_5_width500.webp) no-repeat center top / cover;
     }
-    .bannerSwiper .slide-inner:nth-child(4){
+    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_6_width500.webp) no-repeat center top / cover;
+    }
+    .banner-5{
+        top: 82%;
     }
     footer .container .flex .icon-box div{
         width: 24px;
@@ -1631,12 +1617,9 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_3_width380.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner:nth-child(4){
-        background: url(../img/banner/banner_4_width380.webp) no-repeat center top / cover;
-    }
-    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_5_width380.webp) no-repeat center top / cover;
     }
-    .bannerSwiper .slide-inner:nth-child(4){
+    .bannerSwiper .slide-inner:nth-child(5){
         background: url(../img/banner/banner_6_width380.webp) no-repeat center top / cover;
     }
     .sec-1 .container,
