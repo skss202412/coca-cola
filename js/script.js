@@ -19,8 +19,10 @@ document.addEventListener(`DOMContentLoaded`, function(){
     }
 
     var swiper = new Swiper(".bannerSwiper", {
-        // loop: true, 
-        speed: 1500,
+        allowTouchMove : true,
+        slideToClickedSlide : true,
+        speed: 1000,
+        clickable: true,
         autoplay : {
             delay: 3000,
         },
