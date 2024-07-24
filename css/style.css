@@ -1360,6 +1360,9 @@ footer .container .flex .icon-box div:hover svg{
     }
 }
 @media(max-width: 760px){
+    .bg-gradient {
+        background: linear-gradient(360deg, #181818, transparent 50%);
+    }
     .bannerSwiper .slide-inner .banner-content{
         top: 80%;
     }
@@ -1501,6 +1504,9 @@ footer .container .flex .icon-box div:hover svg{
     }
 }
 @media(max-width: 550px){
+    .bannerSwiper .slide-inner{
+        height: 550px;
+    }
     .bannerSwiper .slide-inner .banner-content{
         top: 84%;
     }
@@ -1549,6 +1555,9 @@ footer .container .flex .icon-box div:hover svg{
     }
     .bannerSwiper .slide-inner .banner-content p{
         font-size: 13px;
+    }
+    .bannerSwiper .slide-inner{
+        height: 600px;
     }
     .bannerSwiper .slide-inner:nth-child(1){
         background: url(../img/banner/banner_1_width500.webp) no-repeat center top / cover;
