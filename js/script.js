@@ -24,7 +24,7 @@ document.addEventListener(`DOMContentLoaded`, function(){
         speed: 1000,
         clickable: true,
         autoplay : {
-            delay: 10,
+            delay: 3000,
         },
     });
 
