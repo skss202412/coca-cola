@@ -68,7 +68,14 @@ document.addEventListener(`DOMContentLoaded`, function(){
       },
     });
 
-    AOS.init();
+    AOS.init({
+
+        disable: function () {
+          var desktop = 1200;
+          return window.innerWidth < desktop;
+        } // 1200px 이하일 때 disable
+      
+      });
 
     function moveCan() {
         const windowWidth = window.innerWidth;
@@ -153,4 +160,23 @@ document.addEventListener(`DOMContentLoaded`, function(){
             subMenu.classList.remove(`on`);
         }
     });
+
+    const hideLabtn = () => {
+        const windowWidth = window.innerWidth;
+
+        const laBtn =  document.querySelector(`.sub-menu .language`);
+
+        if(windowWidth < 1200){
+            laBtn.classList.add(`remove`);
+        }else{
+            laBtn.classList.remove(`remove`);
+        }
+    }
+    hideLabtn();
+
+    window.addEventListener(`resize`, function(){
+        hideLabtn();
+    });
+
+
 });

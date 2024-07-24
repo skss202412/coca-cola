@@ -449,7 +449,6 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 40px;
     margin-bottom: 115px;
 }
 .menu-right .circle-wrap .circle{
@@ -721,8 +720,11 @@ footer .container .flex .icon-box div:hover svg{
         padding-left: 16px;
         padding-right: 16px;
     }
+    .section-head h1{
+        margin-bottom: 32px;
+    }
     .section-head p{
-        font-size: 24px;
+        font-size: 22px;
     }
     .sec-4 .container{
         margin-right: 0;
@@ -740,7 +742,7 @@ footer .container .flex .icon-box div:hover svg{
         font-size: 90px;
     }
     .sec-4 .container .section-head p{
-        font-size: 24px;
+        font-size: 22px;
     }
     .menu-right .txt-box p{
         font-size: 28px;
@@ -748,7 +750,7 @@ footer .container .flex .icon-box div:hover svg{
         margin-top: 40px;
     }
     .sec-5 .container .title{
-        font-size: 90px;
+        font-size: 86px;
     }
     /* .sec-5 .container .box-wrap .box .tit-box h2{
         font-size: 26px;
@@ -763,6 +765,10 @@ footer .container .flex .icon-box div:hover svg{
     }
     footer .container .flex .icon-box{
         margin-right: 80px;
+    }
+    .menu-right .txt-box svg{
+        width: 40px;
+        height: 40px;
     }
 
 }
@@ -789,27 +795,42 @@ footer .container .flex .icon-box div:hover svg{
     footer .container .flex{
         margin: 0px 16px;
     }
+    .whitebg{
+        height: 70%;
+    }
+    .sec-4 .container .section-head h1{
+        font-size: 80px;
+    }
+    .sec-5 .container .title{
+        font-size: 80px;
+    }
+    .sec-5 .container .circle-wrap{
+        padding: 40px 0 0 0;
+    }
 }
 
 @media(max-width: 1400px){
+    .section-head h1{
+        margin-bottom: 20px;
+    }
     .section-head p{
-        font-size: 22px;
+        font-size: 21px;
     }
     .sec-4 .container{
         margin-bottom: 320px;
     }
     .sec-4 .container .section-head p{
-        font-size: 22px;
+        font-size: 21px;
     }
     .sec-4 .content{
         width: calc(50% - 40px);
     }
     .sec-4 .container .section-head h1{
-        font-size: 86px;
+        font-size: 76px;
         margin-bottom: 28px;
     }
     .sec-5 .container .title{
-        font-size: 86px;
+        font-size: 76px;
     }
     .sec-5 .container .box-wrap .box{
         min-height: 738px;
@@ -834,13 +855,10 @@ footer .container .flex .icon-box div:hover svg{
 
 @media(max-width: 1350px){
     .section-head p{
-        font-size: 21px;
-    }
-    .sec-4 .container .section-head h1{
-        font-size: 80px;
+        font-size: 20px;
     }
     .sec-4 .container .section-head p{
-        font-size: 21px;
+        font-size: 20px;
     }
     .sec-5 .container .box-wrap .box{
         padding: 60px 40px;
@@ -850,6 +868,31 @@ footer .container .flex .icon-box div:hover svg{
     }
     .sec-5 .container .title{
         font-size: 80px;
+    }
+    .menu-right .txt-box{
+        padding-right: 32px;
+    }
+    .menu-right .txt-box p{
+        font-size: 26px;
+    }
+    .menu-right .txt-box svg{
+        width: 36px;
+        height: 36px;
+    }
+    .menu-right .circle-wrap .circle{
+        width: 80px;
+        height: 80px;
+    }
+    .sec-4 .container .section-head h1{
+        font-size: 72px;
+    }
+    .sec-5 .container .circle-wrap .circle{
+        width: 80px;
+        height: 80px;
+    }
+    .menu-right .txt-box p{
+        margin-top: 36px;
+        margin-bottom: 36px;
     }
 }
 @media(max-width: 1310px){
@@ -870,11 +913,14 @@ footer .container .flex .icon-box div:hover svg{
     .sec-3-img{
         height: 600px;
     }
+    .section-head h1{
+        font-size: 17px;
+    }
     .section-head p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .sec-4 .container .section-head p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .bannerSwiper .slide-inner:nth-child(1){
         background: url(../img/banner/banner_1_width1024.webp) no-repeat center top / cover;
@@ -888,7 +934,14 @@ footer .container .flex .icon-box div:hover svg{
     .bannerSwiper .slide-inner:nth-child(4){
         background: url(../img/banner/banner_4_width1024.webp) no-repeat center top / cover;
     }
-    
+    .sec-5 .container .circle-wrap .circle{
+        width: 72px;
+        height: 72px;
+    }
+    .menu-right .circle-wrap .circle{
+        width: 72px;
+        height: 72px;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -954,7 +1007,7 @@ footer .container .flex .icon-box div:hover svg{
     }
     .sub-menu.on{
         opacity: 1;
-        z-index: 9;
+        z-index: 99;
     }
     .sub-menu{
         display: block;
@@ -991,6 +1044,9 @@ footer .container .flex .icon-box div:hover svg{
         width: 100px;
         padding-left: 16px;
         margin-right: 58px;
+    }
+    .sub-menu .language.remove{
+        display: none;
     }
     .sub-menu .language .kr{
         height: 48px;
@@ -1034,14 +1090,15 @@ footer .container .flex .icon-box div:hover svg{
         opacity: 0;
     }
     .whitebg{
-        height: 70%;
+        height: 65%;
     }
     .sec-5 .container .box-wrap .box:last-child{
         margin-bottom: 0;
     }
+    .sec-5 .container .circle-wrap{
+        padding: 40px 0 0 0;
+    }
     /* ----------------------------------------------------------------------------------- */
-
-
 
     .sec-5 .container .box-wrap{
         flex-direction: column;
@@ -1054,7 +1111,7 @@ footer .container .flex .icon-box div:hover svg{
     }
 
     .sec-5 .container .title{
-        font-size: 72px;
+        font-size: 60px;
         margin-left: 0;
         margin-top: 24px;
     }
@@ -1063,6 +1120,16 @@ footer .container .flex .icon-box div:hover svg{
     }
     footer .container .flex .footer-txt a{
         font-size: 16px;
+    }
+    .menu-right .txt-box p {
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .sec-5 .container .box-wrap .box .tit-box h2{
+        margin-bottom: 16px;
+    }
+    .sec-4 .container .section-head h1{
+        margin-bottom: 20px;
     }
 }
 
@@ -1077,17 +1144,17 @@ footer .container .flex .icon-box div:hover svg{
         font-size: 14px;
     }
     .menu-right .txt-box svg{
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
     }
     .sec-4 .container .section-head h1{
-        font-size: 78px;
+        font-size: 60px;
     }
     .menu-right .txt-box p{
         font-size: 26px;
     }
     .sec-5 .container .title{
-        font-size: 60px;
+        font-size: 58px;
     }
     footer .container .flex .footer-txt{
         margin-left: 40px;
@@ -1100,15 +1167,15 @@ footer .container .flex .icon-box div:hover svg{
         height: 32px;
     }
     .menu-right .circle-wrap .circle{
-        width: 80px;
-        height: 80px;
+        width: 66px;
+        height: 66px;
     }
     .sec-5 .container .circle-wrap .circle{
-        width: 80px;
-        height: 80px;
+        width: 66px;
+        height: 66px;
     }
     .whitebg{
-        height: 60%;
+        height: 55%;
     }
 }
 @media(max-width: 1000px){
@@ -1124,14 +1191,22 @@ footer .container .flex .icon-box div:hover svg{
     .sub-menu .logo{
         width: 220px;
     }
+    .section-head h1{
+        font-size: 15px;
+    }
     .section-head p{
         font-size: 16px;
     }
     .sec-4 .container .section-head p{
         font-size: 16px;
     }
+    .menu-right .txt-box{
+        padding-right: 20px;
+    }
     .menu-right .txt-box p{
         font-size: 22px;
+        margin-top: 28px;
+        margin-bottom: 28px;
     }
     .menu-right .txt-box svg {
         width: 28px;
@@ -1146,21 +1221,26 @@ footer .container .flex .icon-box div:hover svg{
     footer .container .flex .logo{
         width: 180px;
     }
+    .sec-4 .container .section-head h1{
+        font-size: 54px;
+    }
+    .sec-5 .container .title{
+        font-size: 54px;
+    }
+    .bannerSwiper .slide-inner .view-btn,
+    .right-box .view-btn{
+        bottom: 24px;
+        right: 24px;
+    }
+     
 }
 @media(max-width: 960px){
-    .sec-4 .container .section-head h1{
-        font-size: 68px;
+    .section-head h1{
+        margin-bottom: 12px;
     }
     .can{
         width: 300px;
         height: 450px;
-    }
-    .menu-right .txt-box p{
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
-    .sec-5 .container .title{
-        font-size: 68px;
     }
     .box .img-1 img, .box .img-2 img, .box .img-3 img{
         height: 360px;
@@ -1180,7 +1260,28 @@ footer .container .flex .icon-box div:hover svg{
     .whitebg{
         height: 50%;
     }
+    .menu-right .txt-box p{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .sec-4 .container .section-head h1{
+        margin-bottom: 12px;
+    }
 }
+@media(max-width: 900px){
+    .sec-5 .container .box-wrap .box .tit-box p{
+        font-size: 15px;
+    }
+    .sec-4 .container .section-head h1{
+        font-size: 50px;
+    }
+    .sec-5 .container .box-wrap .box .tit-box h2{
+        font-size: 28px;
+    }
+    .sec-5 .container .title{
+        font-size: 50px;
+    }
+}   
 @media(max-width: 767px){
     .bannerSwiper .slide-inner:nth-child(1){
         background: url(../img/banner/banner_1_width767.webp) no-repeat center top / cover;
@@ -1195,7 +1296,7 @@ footer .container .flex .icon-box div:hover svg{
         background: url(../img/banner/banner_4_width767.webp) no-repeat center top / cover;
     }
     .bannerSwiper .slide-inner{
-        height: 900px;
+        height: 600px;
     }
 }
 @media(max-width: 760px){
@@ -1264,8 +1365,8 @@ footer .container .flex .icon-box div:hover svg{
         padding-right: 0;
     }
     .menu-right .txt-box p{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 28px;
+        margin-bottom: 28px;
     }
     .sec-4 .container .section-head{
         padding-bottom: 100px;
@@ -1309,10 +1410,20 @@ footer .container .flex .icon-box div:hover svg{
     .bannerSwiper{
         pointer-events: none;
     }
+    .sec-4 .container .section-head p{
+        font-size: 15px;
+    }
+    .sec-5 .container .box-wrap .box .tit-box h2{
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
 }
-@media(max-width: 630px){
+@media(max-width: 650px){
     .sub-menu .main-menu-s a{
         font-size: 50px;
+    }
+    .sec-5 .container .title{
+        font-size: 40px;
     }
 }
 @media(max-width: 550px){
@@ -1324,15 +1435,9 @@ footer .container .flex .icon-box div:hover svg{
         height: 30px;
         pointer-events: none;
     }
-    .sec-4 .container .section-head h1{
-        font-size: 60px;
-    }
     .sec-5 .container .title{
-        font-size: 40px;
+        font-size: 38px;
         padding-top: 50px;
-    }
-    .sec-5 .container .box-wrap .box .tit-box h2{
-        font-size: 28px;
     }
     footer .container .flex .logo {
         width: 150px;
@@ -1348,6 +1453,12 @@ footer .container .flex .icon-box div:hover svg{
         height: auto;
         padding: 32px 0;
     }
+    .sec-5 .container .box-wrap .box{
+        margin-bottom: 16px;
+    }
+    .box .img-1 img, .box .img-2 img, .box .img-3 img{
+        height: 300px;
+    }
 }
 @media(max-width: 500px){
     .bannerSwiper .slide-inner:nth-child(1){
@@ -1361,6 +1472,31 @@ footer .container .flex .icon-box div:hover svg{
     }
     .bannerSwiper .slide-inner:nth-child(4){
         background: url(../img/banner/banner_4_width500.webp) no-repeat center top / cover;
+    }
+    footer .container .flex .icon-box div{
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+    footer .container .flex .logo{
+        width: 120px;
+        height: 30px;
+    }
+    footer .container .flex .logo{
+        margin-left: 30px;
+    }
+    .sec-4 .container .section-head h1{
+        font-size: 40px;
+    }
+    .sec-5 .container .title{
+        font-size: 36px;
+    }
+    .sec-5 .container .box-wrap .box .tit-box h2{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .sec-5 .container .box-wrap .box .tit-box p{
+        font-size: 14px;
     }
 }
 @media(max-width: 375px){
